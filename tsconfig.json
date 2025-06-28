@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "outDir": "../tests-out",
+    "baseUrl": ".",
+    "paths": {
+      "@setup": ["src/setup/index.ts"],
+      "@types": ["src/types/index.ts"],
+      "@utils": ["src/utils/index.ts"],
+      "@config": ["src/config/index.ts"],
+      "@logger": ["src/logger/index.ts"],
+      "@consts": ["src/consts/index.ts"],
+      "@aaasAdminApi": ["src/aaas-admin-api/index.ts"],
+      "@testUtils": ["src/test-utils/index.ts"]
+    }
+  }
+}

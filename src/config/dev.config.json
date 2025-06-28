@@ -1,0 +1,7 @@
+{
+  "apiGatewayUrl": "https://api-gateway.va-endpoint.com",
+  "intps": {
+    "withWebsiteCompanyManagedSubscriptions": "14257a0c-f436-4ef2-af91-2ee7ca30ff72",
+    "withCustomerSubscriptions": "d71ff306-f21e-4124-bf54-9b75148516e5"
+  }
+}

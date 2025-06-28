@@ -1,0 +1,33 @@
+{
+  "name": "playwright-3as",
+  "version": "1.0.0",
+  "description": "This project contains automated end-to-end tests for the 3AS Upgrade Plan flow using Playwright and the @visitor-analytics/3as-sdk.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.va-endpoint.com:visa/automation/playwright-3as.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/lodash": "^4.17.18",
+    "@types/node": "^24.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@visitor-analytics/3as-sdk-v2": "npm:@visitor-analytics/3as-sdk@^2.1.2",
+    "@visitor-analytics/3as-sdk-v3": "npm:@visitor-analytics/3as-sdk@^3.0.3",
+    "axios": "^1.10.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.5.0",
+    "lodash": "^4.17.21",
+    "pino": "^9.7.0"
+  }
+}

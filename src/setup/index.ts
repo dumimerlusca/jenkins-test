@@ -1,0 +1,1 @@
+export { Intps } from './intps';
