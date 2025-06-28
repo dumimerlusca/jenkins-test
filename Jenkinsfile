@@ -1,20 +1,18 @@
 pipeline {
   agent any
 
+  environment {
+    ENV = 'dev'
+  }
+
   stages {
-    stage('Build') {
-      steps {
-        echo 'Building...'
-      }
-    }
+   
     stage('Test') {
       steps {
         echo 'Running tests...'
-      }
-    }
-    stage('Deploy') {
-      steps {
-        echo 'Deploying...'
+          sh 'npm install'
+          sh 'npx playwright install'
+          sh 'npx playwright test --workers=4'
       }
     }
   }
